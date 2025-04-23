@@ -1,0 +1,40 @@
+
+.hero {
+    text-align: center;
+    padding: 0 25px 65px ;
+}
+
+.hero-title {
+    font-size: 45px;
+    font-weight: 700;
+    color:var(--color-dark-black);
+    margin: 40px 0 0 0;
+}
+.hero-discription {
+    color: var(--color-black);
+font-size: 18px;
+font-weight: 500;
+margin: 20px 0 35px;
+}
+.hero-picture {
+    width: min(100%,950px);
+    height: 535px;
+    object-fit: cover;
+}
+@media (max-width: 480px) {
+    .hero {
+        text-align: left;
+        padding: 0 25px 0 ;
+    }
+    .hero-title {
+        width: min(70%);
+        font-size: 32px;
+        font-weight: 700;
+        margin: 40px 0 0 0;
+    }
+    .hero-discription {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 40px;
+    }
+}

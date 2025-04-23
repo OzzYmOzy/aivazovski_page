@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     background-color: var(--bg-main);
     
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
 }
 ul {
     list-style: none;
@@ -20,5 +23,15 @@ a {
 .container {
     max-width: 950px ;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 5px;
+}
+h1,h3,p {
+    margin: 0;
+}
+.descriptor {
+    margin: 0 auto;
+    width:min(100%,420px);
+    height: 1px;
+    background-color: var(--color-dark-black);
+    border: none;
 }
