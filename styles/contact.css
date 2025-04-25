@@ -13,28 +13,25 @@
 .contact-button {
     width: 210px;
     height: 42px;
-    border-radius: 25px;
+    border-radius: 50px;
     background-color: var(--color-black);
     border: none;
+    color: var(--bg-main);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
     margin: 50px 0 20px;
-    scale: 100%;
-    transition: border-radius .20s;
+    transition: scale .3s, border-radius .20s;
 }
 .contact-button:hover {
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     scale: 105%;
      background-color:#3ca7ff;
     opacity: .9;
 }
 
-.button-link {
-    color: var(--bg-main);
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    
-}
+
 .socials {
     padding: 20px 0 25px 0;
     display: flex;
